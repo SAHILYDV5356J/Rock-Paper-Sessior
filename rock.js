@@ -9,7 +9,7 @@ const scorec=document.querySelector("#comp-score");
 
 const gencompchoice=()=>{
     //rock paper scissor
-    let options=["rock","paper","scissor"];  //well known random method
+    let options=["rock","paper","Scissor"];  //well known random method
   //  Math.random()    // 0 se 1 ke bich main
 
   //  Math.random()*3;     //Math.floor se decimal value hatt jati hain
