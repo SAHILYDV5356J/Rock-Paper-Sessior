@@ -39,7 +39,7 @@ const showwinner=(userwin,userchoice,compchoice)=>{
     else{
         console.log("Computer Win!");
         compscore++;
-        msg.innerText=`Computer Win! ${compchoice.toUpperCase()} beats ${userchoice.toUpperCase()}`;
+        msg.innerText=`You Lose! ${compchoice.toUpperCase()} beats ${userchoice.toUpperCase()}`;
          msg.style.backgroundColor="red";
         scorec.innerText=compscore;
     }
